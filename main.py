@@ -21,7 +21,7 @@ try:
 except Exception as A:
     weather_data = "Error"
 
-w_lable = Label(root, highlightbackground="Red", text= weather_data)
+w_lable = Label(root, highlightbackground="Red", text= weather_data['main'])
 w_lable.pack()
 
 
